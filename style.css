@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Cinzel:wght@500&family=Cormorant+Garamond:wght@700&family=DM+Serif+Display&family=Dancing+Script:wght@600&family=Inter:wght@500&family=Josefin+Sans:ital@0;1&family=Niconne&family=Open+Sans&family=Parisienne&family=Roboto:wght@700&family=Yeseva+One&display=swap');
 
 .bg {
-    background-image: url('https://i.pinimg.com/564x/51/14/72/5114727b0ac4fc58be3a37c1c8c10978.jpg');
+    background-image: url('./assets/bg1.jpg');
     background-size: cover;
     padding: 3rem;
     overflow: hidden;
 }
 
 .bg2 {
-    background-image: url('https://media.tenor.com/cXsMogZOxMkAAAAi/borboletas-butterflies.gif');
+    background-image: url('./assets/butterfliesbg.gif');
     background-size: cover;
     border-radius: 10px;
     padding: 5rem;
 }
 
 .bg1 {
-    background-image: url('https://media4.giphy.com/media/RetcDrOQFZRR3e4R8z/giphy.gif?cid=ecf05e470jv458pxt77y91fnhrv64j83bljm7t95c1b0kqrz&ep=v1_gifs_related&rid=giphy.gif&ct=s');
+    background-image: url('assets/celebrationbg.webp');
     background-size: cover;
 }
 
@@ -69,7 +69,7 @@ hr {
     font-size: 40px;
     border-width: 0px;
     border-radius: 10px;
-    background-image: url('https://media.tenor.com/U6uiG273lroAAAAC/yellow-sparkle.gif');
+    background-image: url('./assets/btnbg.gif');
     background-size: cover;
     color: black;
 }
@@ -92,7 +92,7 @@ hr {
 
 
 .card-container {
-    background-image: url('https://img.freepik.com/premium-photo/subtle-leaves-gold-color-frame-hd-wallpaper-background_1000823-11325.jpg?w=996');
+    background-image: url('assets/bg3.jpg');
     background-size: cover;
     border-radius: 10px;
     overflow: hidden;
@@ -112,7 +112,7 @@ hr {
 }
 
 .fun-container {
-    background-image: url('https://media.istockphoto.com/id/1292511452/vector/blush-pink-watercolor-fluid-painting-vector-design-card.jpg?s=612x612&w=0&k=20&c=OGnRUNGByPnCk2u_qKl-N97efjIxUH3jtxBDgWJ6dso=');
+    background-image: url('assets/funbg.jpg');
     background-size: cover;
     border-radius: 20px;
 
@@ -147,7 +147,7 @@ hr {
 
 .section-names {
     font-family: 'Dancing Script', cursive;
-    font-size: 45px;
+    font-size: 100px;
     color: #57375D;
 }
 
@@ -182,6 +182,7 @@ hr {
 
 }
 
+
 @media (min-width:992px) {
     .fun-p {
         font-size: 25px;
@@ -196,6 +197,17 @@ hr {
     }
 
     .carousel-image {
-        height: 650px;
+        height: 700px;
+        width: 1000px !important;
+        margin: auto;
+    }
+
+    .section-names {
+        font-size: 55px;
+    }
+
+    .card-container {
+        height: 430px;
+
     }
 }
